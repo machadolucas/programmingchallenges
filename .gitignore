@@ -1,0 +1,29 @@
+#--- generic files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+ 
+#--- java
+*.class
+ 
+#--- python
+*.pyc
+ 
+#--- xcode
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+xcuserdata
+project.xcworkspace
+ 
+#--- rails
+*.sqlite3
+config/database.yml
+log/*
+tmp/*
